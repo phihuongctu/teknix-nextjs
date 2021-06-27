@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --width-btn: calc(100% - 32px);
+}
+a {
+  cursor: pointer;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.btn-absolute {
+  @apply text-white;
+  width: var(--width-btn);
+}
